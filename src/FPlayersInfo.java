@@ -30,6 +30,9 @@ public class FPlayersInfo {
 		case "EXPERIENCE":
 			System.out.println(playerName[i] + " has " + yearGetter(i) + " year(s) of experience in the NFL");
 			break;
+		
+		default:
+			System.out.println("Invalid input");
 			
 		}
 	}
